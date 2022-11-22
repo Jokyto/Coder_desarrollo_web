@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,99 +11,168 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <header>
-        <a href="index.html">
-            <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home page</a>
-                </li>
-                <li>
-                    <a href="instituto.html">Instituto</a>
-                </li>
-                <li>
-                    <a href="japones.html">Japonés</a>
-                </li>
-                <li>
-                    <a href="cursos.html">Cursos</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006060;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
+                </a>
+                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-end me-1">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="instituto.html">Instituto</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="japones.html">Japonés</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <h1>
-            Titulo
-        </h1>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quibusdam necessitatibus rem? Possimus consequuntur ut sapiente aut magni voluptates, est rem! Ex recusandae quo cupiditate soluta repudiandae assumenda odit quia.
-        </p>
-        <ul>
-            <li>
-                <h1>
-                    Curso basico
-                </h1>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col flex-column d-flex align-items-center justify-content-center p-3">
+                    <h1>
+                        Niveles
+                    </h1>
+                </div>
+            </div>
+            <div class="row flex-row d-flex align-items-center justify-content-star mb-5">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum consectetur natus earum quasi
-                    aspernatur eius deserunt accusantium delectus repudiandae illum, totam sequi sit exercitationem
-                    aut. Laborum suscipit commodi autem!
+                    Nuestros cursos de niveles estan separados en principiante, medio y avanzado. Cada nivel tiene una
+                    duracion promedio de 2 años y corresponde a una certificación dentro del marco japonés de idioma que
+                    se dividen en 5 examenes yendo del N5, el inicial, hasta el N1. Por otra parte cada examen solo
+                    cuenta con una parte escrita, a diferencia de otros idiomas que cuentan con parte oral, estos
+                    solo tienen comprensión lectora, comprensión oral, y uso de la lengua.
                 </p>
-            </li>
-            <li>
-                <h1>
-                    Curso avanzado
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum consectetur natus earum quasi
-                    aspernatur eius deserunt accusantium delectus repudiandae illum, totam sequi sit exercitationem aut.
-                    Laborum suscipit commodi autem!
-                </p>
-            </li>
-            <li>
-                <h1>
-                    Curso superior
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum consectetur natus earum quasi
-                    aspernatur eius deserunt accusantium delectus repudiandae illum, totam sequi sit exercitationem aut.
-                    Laborum suscipit commodi autem!
-                </p>
-            </li>
-        </ul>
-        <div class="logo_de_whatsapp">
-            <a href="https://web.whatsapp.com/" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-star">
+                <div class="row">
+                    <div class="row mb-5">
+                        <div class="col-6 align-items-center mb-2">
+                            <h2>
+                                Principiante
+                            </h2>
+                        </div>
+                        <div class="col-6 d-flex aling-items-center justify-content-end">
+                            <a href="../pages/contacto.html">
+                                <button type="button" class="btn btn-outline-info">Inscribirme</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-star mb-5">
+                        <p>
+                            Desde
+                            las primeras clases se obtienen los conocimientos gramaticales suficientes para formar
+                            oraciones para que luego en la etapa de escritura, se enseñen y aprendan a utilizar los dos
+                            silabarios
+                            japoneses, hiragana y katakana, y aproximadamente 100 kanjis básicos.
+                            Después del segundo año, en donde se adquieren los conocimientos gramaticales necesarios, en
+                            el que se completa el aprendizaje de los 300 kanjis necesarios,
+                            se está en condiciones de rendir el N4 de los examenes de niveles japoneses.
+                        </p>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-6 align-items-center mb-2">
+                            <h2>
+                                Curso avanzado
+                            </h2>
+                        </div>
+                        <div class="col-6 d-flex aling-items-center justify-content-end">
+                            <a href="../pages/contacto.html">
+                                <button type="button" class="btn btn-outline-info">Inscribirme</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-star mb-5">
+                        <p>
+                            En los cursos de "Nivel avanzado", se incrementa el conocimiento de los "kanji" a través
+                            de lo que se denomina "kanji jukugo", es decir, combinación y utilización de kanji con
+                            nuevos significados, lo que conlleva al enriquecimiento del vocabulario. Esto, junto con
+                            el conocimiento de modismos propios del idioma, amplía el espectro de la conversación.
+                            Los textos que se utilizan basan sus lecturas, por ejemplo, en recortes de notas de
+                            periódicos japoneses, con esto se esta en condiciones de rendir el N2 de los examenes de
+                            niveles japoneses.
+                        </p>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-6 d-flex align-items-center justify-content-star mb-2">
+                            <h2>
+                                Curso superior
+                            </h2>
+                        </div>
+                        <div class="col-6 d-flex aling-items-center justify-content-end">
+                            <a href="../pages/contacto.html">
+                                <button type="button" class="btn btn-outline-info">Inscribirme</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mb-5">
+                        <p>
+                            En el curso de "Nivel Superior", el conocimiento de los "Kanji" se incrementa hasta
+                            llegar al número de 2000, cantidad equivalente al exigido en el 1er. Nivel del exámen de
+                            conocimiento de idioma japonés " Nooryoku Shiken".
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end pb-3">
+                <a class="logo_de_whatsapp" href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
         </div>
     </main>
     <footer>
-        <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        <div class="copyright">
-            <p>Copyright ©2022 Todos los derechos reservados.</p>
-        </div>
-        <div class="iconos">
-            <a href="contacto.html">
-                <i class="fa-solid fa-envelope"></i>
+        <div class="d-flex flex-row align-items-center" style="background-color: #006060;">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
             </a>
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-                <i class="fa-brands fa-square-twitter"></i>
-            </a>
+            <div class="copyright d-none d-md-block">
+                <span class="d-flex flex-wrap">
+                    Copyright ©2022 Todos los derechos reservados.
+                </span>
+            </div>
+            <div class="d-flex justify-content-center justify-content-md-end flex-fill">
+                <a class="nav-item me-4" href="contacto.html">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.linkedin.com/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="nav-item me-4" href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+            </div>
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

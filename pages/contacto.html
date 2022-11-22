@@ -14,84 +14,132 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home page</a>
-                </li>
-                <li>
-                    <a href="instituto.html">Instituto</a>
-                </li>
-                <li>
-                    <a href="japones.html">Japonés</a>
-                </li>
-                <li>
-                    <a href="cursos.html">Cursos</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006060;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
+                </a>
+                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-end me-1">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="instituto.html">Instituto</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="japones.html">Japonés</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <h1>
-            Titulo
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo pariatur sit asperiores, vel blanditiis totam,
-            nam vitae voluptatem aut reprehenderit ipsam. Officiis necessitatibus nulla mollitia quidem, quae delectus
-            laboriosam id!
-        </p>
-        <div class="contacto">
-            <form action="#" method="POST">
-                <label for="Nombre">Ingrese sus datos personales</label>
-                <br>
-                <input type="Text" name="nombre" placeholder="Ingrese tu nombre">
-                <br>
-                <input type="Text" name="apellido" placeholder="Ingrese tu apellido">
-                <br>
-                <input type="text" name="email" placeholder="Ingrese tu email">
-                <br>
-                <input type="text" name="telefono" placeholder="Ingrese su telefono">
-                <br>
-                <input type="submit" name="Enviar" class="boton_enviar">
-        </div>
-        <div class="mapita">
-            <a href="https://www.google.com.ar/maps" target="_blank">
-                <img src="../assets/Mapita.png" alt="mapita">
-            </a>
-        </div>
-        <div class="logo_de_whatsapp">
-            <a href="https://web.whatsapp.com/" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
+        <div class="container">
+            <div class="row">
+                <div class="col flex-column d-flex align-items-center justify-content-center p-5">
+                    <h1>
+                        ¿Cómo llegar al instituto?
+                    </h1>
+                </div>
+                <div class="d-flex">
+                    <div class="row mb-5">
+                        <div class="d-flex mb-2">
+                            <h2>
+                                Ubicación
+                            </h2>
+                        </div>
+                        <div class="d-flex">
+                            <p>
+                                El centro cultural japonés se encuentra por bernabe marquez entre blanco encalada y
+                                diego carman, a escasas cuadras de panamericana y marquez, se puede llegar en colectivo
+                                desde panamericana o haciendo combinación, ya sea con el tren belgrano norte estación
+                                bulogne sur mer y un colectivo, o también con el tren tigre-retiro estación san isidro y
+                                un colectivo.
+                                Para más información dejenos su contacto para poder asesorarle con cualquier duda o
+                                consulta
+                                que tenga, también puede escribirnos por whatsapp dandole click al icono de abajo a la
+                                derecha de la pantalla.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-xl-row align-items-sm-star align-items-md-center">
+                <div class="col-md-6 col-sm-12">
+                    <div class="mb-3">
+                        <label for="formGroupFirstName" class="form-label">Ingrese su nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupLastName" class="form-label">Ingrese su apellido</label>
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupEmail" class="form-label">Ingrese su email</label>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupPhone" class="form-label">Ingrese su teléfono</label>
+                        <input type="text" class="form-control" placeholder="Teléfono" aria-label="Teléfono">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" name="Enviar" class="boton_enviar">
+                    </div>
+                </div>
+                <div class="col-6 ms-xl-5">
+                    <img src="../assets/Mapa.PNG" alt="Mapa">
+                </div>
+            </div>
+            <div class="d-flex justify-content-end pb-3">
+                <a class="logo_de_whatsapp" href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
         </div>
     </main>
     <footer>
-        <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        <div class="copyright">
-            <p>Copyright ©2022 Todos los derechos reservados.</p>
-        </div>
-        <div class="iconos">
-            <a href="contacto.html">
-                <i class="fa-solid fa-envelope"></i>
+        <div class="d-flex flex-row align-items-center" style="background-color: #006060;">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
             </a>
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-                <i class="fa-brands fa-square-twitter"></i>
-            </a>
+            <div class="copyright d-none d-md-block">
+                <span class="d-flex flex-wrap">
+                    Copyright ©2022 Todos los derechos reservados.
+                </span>
+            </div>
+            <div class="d-flex justify-content-center justify-content-md-end flex-fill">
+                <a class="nav-item me-4" href="contacto.html">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.linkedin.com/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="nav-item me-4" href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+            </div>
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>

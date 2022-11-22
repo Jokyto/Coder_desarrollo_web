@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,93 +11,139 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <header>
-        <a href="index.html">
-            <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home page</a>
-                </li>
-                <li>
-                    <a href="instituto.html">Instituto</a>
-                </li>
-                <li>
-                    <a href="japones.html">Japonés</a>
-                </li>
-                <li>
-                    <a href="cursos.html">Cursos</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006060;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
+                </a>
+                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-end me-1">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="instituto.html">Instituto</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="japones.html">Japonés</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <ul>
-            <li>
-                <h1>
-                    prueba
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum consectetur natus earum quasi
-                    aspernatur eius deserunt accusantium delectus repudiandae illum, totam sequi sit exercitationem
-                    aut. Laborum suscipit commodi autem!
-                </p>
-            </li>
-            <li>
-                <h1>
-                    prueba
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum consectetur natus earum quasi
-                    aspernatur eius deserunt accusantium delectus repudiandae illum, totam sequi sit exercitationem aut.
-                    Laborum suscipit commodi autem!
-                </p>
-            </li>
-            <li>
-                <h1>
-                    prueba
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum consectetur natus earum quasi
-                    aspernatur eius deserunt accusantium delectus repudiandae illum, totam sequi sit exercitationem aut.
-                    Laborum suscipit commodi autem!
-                </p>
-            </li>
-        </ul>
-        <div class="logo_de_whatsapp">
-            <a href="https://web.whatsapp.com/" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
+        <div class="container">
+            <div class="row">
+                <div class="col flex-column d-flex align-items-center justify-content-center p-5">
+                    <h1>
+                        Acerca del instituto
+                    </h1>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-column d-flex align-items-center justify-content-center">
+                <div class="col-6 flex-column d-flex align-items-center justify-content-center">
+                    <div class="row mb-5">
+                        <div class="d-flex align-items-center justify-content-center mb-2">
+                            <h2>
+                                Origenes
+                            </h2>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p>
+                                El centro cultural japonés fue fundado hace más de 30 años como respuesta a la creciente
+                                inmigración y popularidad del idioma japones, a partir de allí se ofreció a la comunidad
+                                una forma de aprender acerca del idioma y la cultura de manera didactica.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="d-flex align-items-center justify-content-center mb-2">
+                            <h2>
+                                Propuesta academica
+                            </h2>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p>
+                                La diversidad ideológica, de formación, de experiencias de vida y etaria en el aula es
+                                utilizada y resignificada para transformarla en un elemento clave en la dinámica de
+                                grupo, buscando alta participación y comunicación entre sus miembros, al tiempo que
+                                todos los intercambios de experiencias, los logros y las dificultades en el proceso son
+                                compartidos y trabajados en un clima de estudio y espíritu en conjunto.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="d-flex align-items-center justify-content-center mb-2">
+                            <h2>
+                                Diseño de los cursos
+                            </h2>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p>
+                                Los cursos de idiomas del centro cultural de idioma japonés tienen un enfoque comunicativo que pone al alumno como protagonista de su aprendizaje y
+                                permite el desarrollo de todas las competencias y habilidades que hacen a la adquisición
+                                de una lengua (lectura, escritura, comprensión auditiva y expresión oral), siempre
+                                teniendo en cuenta la formación integral del individuo de acuerdo a sus necesidades e
+                                intereses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end pb-3">
+                <a class="logo_de_whatsapp" href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
         </div>
     </main>
     <footer>
-        <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        <div class="copyright">
-            <p>Copyright ©2022 Todos los derechos reservados.</p>
-        </div>
-        <div class="iconos">
-            <a href="contacto.html">
-                <i class="fa-solid fa-envelope"></i>
+        <div class="d-flex flex-row align-items-center" style="background-color: #006060;">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
             </a>
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-                <i class="fa-brands fa-square-twitter"></i>
-            </a>
+            <div class="copyright d-none d-md-block">
+                <span class="d-flex flex-wrap">
+                    Copyright ©2022 Todos los derechos reservados.
+                </span>
+            </div>
+            <div class="d-flex justify-content-center justify-content-md-end flex-fill">
+                <a class="nav-item me-4" href="contacto.html">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.linkedin.com/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="nav-item me-4" href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+            </div>
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

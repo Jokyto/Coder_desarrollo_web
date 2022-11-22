@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,81 +11,146 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <header>
-        <a href="index.html">
-            <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home page</a>
-                </li>
-                <li>
-                    <a href="instituto.html">Instituto</a>
-                </li>
-                <li>
-                    <a href="japones.html">Japonés</a>
-                </li>
-                <li>
-                    <a href="cursos.html">Cursos</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006060;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
+                </a>
+                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-end me-1">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-4">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="instituto.html">Instituto</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="japones.html">Japonés</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <h1>
-            Titulo
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor neque modi soluta placeat ex temporibus ipsa, itaque facere aspernatur ad aperiam assumenda reprehenderit. Sapiente est facere eos quis, sit quia.
-        </p>
-        <ul>
-            <li>
-                <img src="../assets/Kana.png" alt="Kana">
+        <div class="container">
+            <div class="row">
+                <div class="col flex-column d-flex align-items-center justify-content-center p-5">
+                    <h1>
+                        El japonés
+                    </h1>
+                </div>
+            </div>
+            <div class="row flex-row d-flex align-items-center justify-content-center">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur error fugit iusto porro similique. Aliquid, repudiandae suscipit qui nam doloribus placeat quis ipsam fugit accusantium possimus tempora explicabo nisi.
+                    El idioma japonés esta conformado por dos sistemas de escritura el Kana y el kanji, a su vez el
+                    primero esta
+                    sub dividido en dos silabarios, estos son los famosos hiragana y katakana.
                 </p>
-            </li>
-            <li>
-                <img src="../assets/kanji.png" alt="kanji">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium fugit eos, ratione repudiandae alias pariatur sint, dolores aut odio dolorum corrupti rem deleniti autem ea fuga nostrum suscipit laudantium quam?
-                </p>
-            </li>
-        </ul>
-        <div class="logo_de_whatsapp">
-            <a href="https://web.whatsapp.com/" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
+            </div>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <div class="col-6 d-flex align-items-center justify-content-center p-5">
+                    <img src="../assets/Kana.png" alt="Kana">
+                </div>
+                <div class="col-6 flex-column d-flex align-items-center justify-content-center">
+                    <div class="row">
+                        <div class="row flex-row d-flex align-items-center justify-content-center">
+                            <h2>
+                                Kana
+                            </h2>
+                        </div>
+                        <div class="row flex-row d-flex align-items-center justify-content-center">
+                            <p>
+                                El kana como ya habras leído esta conformado por los dos silabarios hiragana y katakana,
+                                el primero es utilizado junto con los kanjis para formar oraciones en japonés, mientras
+                                que el segundo se utiliza para todas aquellas palabras que no existen en el idioma y se
+                                toman prestadas de otros, los llamdos prestamos lingüísticos, esto también incluye los
+                                nombres y apellidos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <div class="col-6 d-flex align-items-center justify-content-center p-5">
+                    <img src="../assets/kanji.png" alt="kanji">
+                </div>
+                <div class="col-6 flex-column d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="row">
+                            <div class="row flex-row d-flex align-items-center justify-content-center">
+                                <h2>
+                                    Los kanjis
+                                </h2>
+                            </div>
+                            <div class="row flex-row d-flex align-items-center justify-content-center">
+                                <p>
+                                    Los kanji son los sinogramas utilizados en la escritura del idioma japonés, para los
+                                    que existen reglas generales a la hora de combinarlos con los silabarios, pues cada
+                                    uno tiene
+                                    una función diferente. Además se suelen usar en su mayoría para expresar
+                                    conceptos, ya que cada kanji le corresponde un significado y se usa como determinante de
+                                    la raíz de la palabra; mientras que las derivaciones, conjugaciones y accidentes se expresan
+                                    con el kana.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end pb-3">
+                <a class="logo_de_whatsapp" href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
         </div>
     </main>
     <footer>
-        <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo">
-        <div class="copyright">
-            <p>Copyright ©2022 Todos los derechos reservados.</p>
-        </div>
-        <div class="iconos">
-            <a href="contacto.html">
-                <i class="fa-solid fa-envelope"></i>
+        <div class="d-flex flex-row align-items-center" style="background-color: #006060;">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
             </a>
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-                <i class="fa-brands fa-square-twitter"></i>
-            </a>
+            <div class="copyright d-none d-md-block">
+                <span class="d-flex flex-wrap">
+                    Copyright ©2022 Todos los derechos reservados.
+                </span>
+            </div>
+            <div class="d-flex justify-content-center justify-content-md-end flex-fill">
+                <a class="nav-item me-4" href="contacto.html">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a class="nav-item me-4" href="https://www.linkedin.com/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="nav-item me-4" href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+            </div>
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
