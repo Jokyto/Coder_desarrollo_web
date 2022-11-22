@@ -1,8 +1,12 @@
+/*Header*/
+
 header nav ul li{
     border: 10% solid #D6E7DA;
     background-color: #D6E7DA;
     border-radius: 10%;
 }
+
+/*Texto del navbar*/
 
 header nav ul li a{
     font-size: 150%;
@@ -11,11 +15,34 @@ header nav ul li a{
     font-family: 'Courier New', Courier, monospace, cursive;
 }
 
+header nav div button{
+    color: #E5FFF6;
+    justify-items: flex-end;
+}
+/*Cuando se pasa el mouse por arriba,
+me cambia el color del background de los botones.*/
+
 header nav ul li:hover{
     background-color: #4e5db4;
     border: #4e5db4;
     text-emphasis-color: #E7FEFE;
 }
+
+/*Main*/
+
+main{
+    background-color: #E5FFF6;   
+}
+
+/*Logo de whatsapp*/
+
+main .logo_de_whatsapp{
+    font-size: 60px;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+/*Footer*/
 
 footer .copyright{
     display: inline-flex;
@@ -25,17 +52,10 @@ footer .copyright{
     font-size: 20px;
 }
 
+/*Iconos de las redes sociales.*/
+
 footer a i{
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(0, 0, 0);
 }
 
-main{
-    background-color: #E5FFF6;   
-}
-
-main .logo_de_whatsapp{
-    font-size: 60px;
-    text-decoration: none;
-    color: darkgreen;
-}
