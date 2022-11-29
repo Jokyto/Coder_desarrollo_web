@@ -6,44 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-    <link rel="shortcut icon" href="../assets/logo_redondo.png">
+    <link rel="shortcut icon" href="./assets/logo_redondo.png">
     <script src="https://kit.fontawesome.com/06b6c2a36f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
         <!--Aca hago un header con navbar para que cuando la pantalla sea menor a cierto ancho en vez de aparecer todo,
         solo aparece un icono que despliega las opciones en vertical para la versión mobile.-->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006060;">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
+                    <img src="./assets/Logo_de_pagina.png" alt="Logo" width="85" height="50">
                 </a>
                 <!--Este es el boton que después va a desplegar para la verción mobile-->
-                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-flex justify-content-end me-1">
+                <div class="d-flex me-1">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item me-4">
+                            <li class="botones_nav nav-item me-4">
                                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="instituto.html">Instituto</a>
+                            <li class="botones_nav nav-item me-4">
+                                <a class="nav-link" href="./pages/instituto.html">Instituto</a>
                             </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="japones.html">Japonés</a>
+                            <li class="botones_nav nav-item me-4">
+                                <a class="nav-link" href="./pages/japones.html">Japonés</a>
                             </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="cursos.html">Cursos</a>
+                            <li class="botones_nav nav-item me-4">
+                                <a class="nav-link" href="./pages/cursos.html">Cursos</a>
                             </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            <li class="botones_nav nav-item me-4">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -64,12 +64,12 @@
             <!--Tres imagenes con subtitulos y parrafos al lado, cuando se achica la pantalla el texto se posiciona
             abajo de la imagen.-->
             <div class="d-flex flex-column flex-md-row align-items-center">
-                <div class="col-6 d-flex align-items-center justify-content-center p-5">
-                    <a href="instituto.html">
-                        <img src="../assets/instituto.jpg" alt="Instituto" width="70%" height="80%">
+                <div class="col-12 col-md-5 d-flex align-items-center justify-content-center p-5">
+                    <a class="zoom_imagenenes" href="./pages/instituto.html">
+                        <img src="./assets/instituto.jpg" alt="Instituto" width="100%" height="100%">
                     </a>
                 </div>
-                <div class="col-6 flex-column d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-7 flex-column d-flex align-items-center justify-content-center p-5">
                     <div class="d-flex">
                         <div class="row">
                             <div class="row flex-row d-flex align-items-center justify-content-center">
@@ -90,12 +90,12 @@
                 </div>
             </div>
             <div class="d-flex flex-column flex-md-row align-items-center">
-                <div class="col-6 d-flex align-items-center justify-content-center p-5">
-                    <a href="japones.html" class="linking">
-                        <img src="../assets/Japones.png" alt="Japones" width="70%" height="80%">
+                <div class="col-12 col-md-5 d-flex align-items-center justify-content-center p-5">
+                    <a class="zoom_imagenenes" href="./pages/japones.html">
+                        <img src="./assets/Japones.png" alt="Japones" width="100%" height="100%">
                     </a>
                 </div>
-                <div class="col-6 flex-column d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-7 flex-column d-flex align-items-center justify-content-center p-5">
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="row">
                             <div class="row flex-row d-flex align-items-center justify-content-center">
@@ -114,12 +114,12 @@
                 </div>
             </div>
             <div class="d-flex flex-column flex-md-row align-items-center">
-                <div class="col-6 d-flex align-items-center justify-content-center p-5">
-                    <a href="cursos.html" class="linking">
-                        <img src="../assets/Cursos.png" alt="Cursos" width="70%" height="80%">
+                <div class="col-12 col-md-5 d-flex align-items-center justify-content-center p-5">
+                    <a class="zoom_imagenenes" href="./pages/cursos.html">
+                        <img src="./assets/Cursos.png" alt="Cursos" width="100%" height="100%">
                     </a>
                 </div>
-                <div class="col-6 flex-column d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-7 flex-column d-flex align-items-center justify-content-center p-5">
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="row">
                             <div class="row flex-row d-flex align-items-center justify-content-center">
@@ -150,7 +150,7 @@
         este desaparece y alinea los iconos de las redes centrado en el medio en vez de al final.-->
         <div class="d-flex flex-row align-items-center" style="background-color: #006060;">
             <a class="navbar-brand" href="index.html">
-                <img src="https://i.imgur.com/2U3w3eY.png" alt="Logo" width="85" height="50">
+                <img src="./assets/Logo_de_pagina.png" alt="Logo" width="85" height="50">
             </a>
             <div class="copyright d-none d-md-block">
                 <span class="d-flex flex-wrap">
@@ -158,7 +158,7 @@
                 </span>
             </div>
             <div class="d-flex justify-content-center justify-content-md-end flex-fill">
-                <a class="nav-item me-4" href="contacto.html">
+                <a class="nav-item me-4" href="./pages/contacto.html">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
                 <a class="nav-item me-4" href="https://www.facebook.com/" target="_blank">
@@ -176,7 +176,7 @@
             </div>
         </div>
     </footer>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

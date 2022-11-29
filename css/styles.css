@@ -1,6 +1,10 @@
 /*Header*/
 
-header nav ul li{
+header nav{
+    background-color: #006060;
+}
+
+header nav .botones_nav{
     border: 10% solid #D6E7DA;
     background-color: #D6E7DA;
     border-radius: 10%;
@@ -19,6 +23,7 @@ header nav div button{
     color: #E5FFF6;
     justify-items: flex-end;
 }
+
 /*Cuando se pasa el mouse por arriba,
 me cambia el color del background de los botones.*/
 
@@ -34,6 +39,32 @@ main{
     background-color: #E5FFF6;   
 }
 
+/*Font de los textos del main*/
+
+main h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 300%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+main h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}   
+
+main label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+}
+
 /*Logo de whatsapp*/
 
 main .logo_de_whatsapp{
@@ -42,13 +73,28 @@ main .logo_de_whatsapp{
     color: darkgreen;
 }
 
+/*Imagenes del main*/
+
+main img{
+    border-radius: 10%;
+}
+
+main .zoom_imagenenes:hover{
+    filter: brightness(100%);
+    transform: scale(1.5);
+    z-index: 10;
+    overflow: hidden;
+    cursor: zoom-in;
+    align-self: center;
+}
+
 /*Footer*/
 
 footer .copyright{
     display: inline-flex;
     flex-direction: column;
     color: #EBFDF7;
-    font-family: 'Courier New', Courier, monospace, cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 
