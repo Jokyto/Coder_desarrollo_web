@@ -90,7 +90,7 @@ main .zoom_imagenenes:hover{
 
 @media screen and (max-width: 750px){
 .zoom_imagenenes{
-    width: 80%;
+    width: 70%;
 }
 }
 
