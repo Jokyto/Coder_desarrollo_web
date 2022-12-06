@@ -1,0 +1,6 @@
+@mixin font_size-text_decoration-text_align-font_style($font_size,$text_decoration,$text_align,$font_style) {
+    font-size: $font_size;
+    text-decoration: $text_decoration;
+    text-align: $text_align;
+    font-style: $font_style;
+}

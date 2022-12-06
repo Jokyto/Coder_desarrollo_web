@@ -1,0 +1,36 @@
+header {
+    background-color: $header_footer_background_color;
+
+    nav {
+
+        .botones_nav {
+            border: solid $header_color_botones;
+            background-color: $header_color_botones;
+            border-radius: 10%;
+
+            &:hover {
+                background-color: $header_hover_color_botones;
+                border: $header_hover_color_botones;
+            }
+        }
+
+        div {
+            ul {
+                li {
+                    a {
+                        display: block;
+                        font-size: 150%;
+                        text-decoration: none;
+                        font-family: 'Courier New', Courier, monospace, cursive;
+                        color: $header_text_color;
+
+                        &:hover {
+                            color: $header_hover_text_color;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

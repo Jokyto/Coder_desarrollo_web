@@ -5,48 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
+    <meta name="description"
+        content="El centro cultural de idioma japonés tiene diferentes niveles de enseñanza de la lengua, empezando por lo más básico con el nivel principiante, siguiendo con algo más complejo con el aprendizaje de kanjis en el nivel intermedio, hasta llegar al final con la profundización de estos en el nivel superior.">
+    <meta name="keywords" content="Centro cultural japonés, cursos, aprender japonés, niveles, examenes japoneses">
+    <title>Centro cultural japonés - Cursos</title>
     <link rel="shortcut icon" href="../assets/logo_redondo.png">
     <script src="https://kit.fontawesome.com/06b6c2a36f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
     <header>
-        <!--Aca hago un header con navbar para que cuando la pantalla sea menor a cierto ancho en vez de aparecer todo,
-solo aparece un icono que despliega las opciones en vertical para la versión mobile.-->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
+            <!--Aca hago un header con navbar para que cuando la pantalla sea menor a cierto ancho en vez de aparecer todo,
+            solo aparece un icono que despliega las opciones en vertical para la versión mobile.-->
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50">
+                    <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
                 </a>
                 <!--Este es el boton que después va a desplegar para la verción mobile-->
-                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                <button class="justify-content-end navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-flex justify-content-end me-1">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="instituto.html">Instituto</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="japones.html">Japonés</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="cursos.html">Cursos</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" href="instituto.html">Instituto</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" href="japones.html">Japonés</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" aria-current="page" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -61,7 +62,7 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                     </h1>
                 </div>
             </div>
-            <div class="row flex-row d-flex align-items-center justify-content-star mb-5">
+            <div class="row flex-row d-flex align-items-center justify-content-star mb-5 p-5">
                 <p>
                     Nuestros cursos de niveles estan separados en principiante, medio y avanzado. Cada nivel tiene una
                     duracion promedio de 2 años y corresponde a una certificación dentro del marco japonés de idioma que
@@ -71,15 +72,16 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                 </p>
             </div>
             <!--Aca estan ordenados un titulo con un boton y abajo un parrafo tres veces en ese orden.-->
-            <div class="d-flex align-items-center justify-content-star">
+            <div class="d-flex align-items-center justify-content-star p-5">
                 <div class="row">
-                    <div class="row mb-5">
-                        <div class="col-6 align-items-center mb-2">
+                    <div class="row flex-column flex-md-row mb-5">
+                        <div class="col-12 col-md-6 align-items-center mb-2">
                             <h2>
                                 Principiante
                             </h2>
                         </div>
-                        <div class="col-6 d-flex aling-items-center justify-content-end">
+                        <div
+                            class="col-12 col-md-6 d-flex aling-items-center justify-content-star justify-content-md-end">
                             <a href="../pages/contacto.html">
                                 <button type="button" class="btn btn-outline-info">Inscribirme</button>
                             </a>
@@ -97,13 +99,14 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                             se está en condiciones de rendir el N4 de los examenes de niveles japoneses.
                         </p>
                     </div>
-                    <div class="row mb-5">
-                        <div class="col-6 align-items-center mb-2">
+                    <div class="row flex-column flex-md-row mb-5">
+                        <div class="col-12 col-md-6 align-items-center mb-2">
                             <h2>
                                 Curso avanzado
                             </h2>
                         </div>
-                        <div class="col-6 d-flex aling-items-center justify-content-end">
+                        <div
+                            class="col-12 col-md-6 d-flex aling-items-center justify-content-star justify-content-md-end">
                             <a href="../pages/contacto.html">
                                 <button type="button" class="btn btn-outline-info">Inscribirme</button>
                             </a>
@@ -120,13 +123,14 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                             niveles japoneses.
                         </p>
                     </div>
-                    <div class="row mb-5">
-                        <div class="col-6 d-flex align-items-center justify-content-star mb-2">
+                    <div class="row flex-column flex-md-row mb-5">
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-star mb-2">
                             <h2>
                                 Curso superior
                             </h2>
                         </div>
-                        <div class="col-6 d-flex aling-items-center justify-content-end">
+                        <div
+                            class="col-12 col-md-6 d-flex aling-items-center justify-content-star justify-content-md-end">
                             <a href="../pages/contacto.html">
                                 <button type="button" class="btn btn-outline-info">Inscribirme</button>
                             </a>
@@ -152,9 +156,9 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
     <footer>
         <!--Aca en el footer cuando la pagina se hace muy pequeña para poner el texto de copyright,
         este desaparece y alinea los iconos de las redes centrado en el medio en vez de al final.-->
-        <div class="d-flex flex-row align-items-center" style="background-color: #006060;">
+        <div class="d-flex flex-row align-items-center">
             <a class="navbar-brand" href="../index.html">
-                <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50">
+                <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
             </a>
             <div class="copyright d-none d-md-block">
                 <span class="d-flex flex-wrap">
@@ -165,16 +169,16 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                 <a class="iconos  nav-item me-4" href="contacto.html">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://www.facebook.com/" target="_blank">
+                <a class="iconos-facebook nav-item me-4" href="https://www.facebook.com/" target="_blank">
                     <i class="fa-brands fa-square-facebook"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://www.instagram.com/" target="_blank">
+                <a class="iconos-instagram nav-item me-4" href="https://www.instagram.com/" target="_blank">
                     <i class="fa-brands fa-square-instagram"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://www.linkedin.com/" target="_blank">
+                <a class="iconos-linkedin nav-item me-4" href="https://www.linkedin.com/" target="_blank">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://twitter.com/" target="_blank">
+                <a class="iconos-twitter nav-item me-4" href="https://twitter.com/" target="_blank">
                     <i class="fa-brands fa-square-twitter"></i>
                 </a>
             </div>

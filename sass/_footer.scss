@@ -1,0 +1,57 @@
+footer {
+    background-color: $header_footer_background_color;
+
+    .copyright {
+        display: inline-flex;
+        flex-direction: column;
+        color: #EBFDF7;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        @include font_size-text_decoration-text_align-font_style(20px,underline,start,italic);
+    }
+
+    .iconos {
+        font-size: 50px;
+        color: #25D366;
+        &:hover{
+            animation: zooming 2s infinite;
+        }
+    }
+
+    .iconos-facebook{
+        @extend .iconos;
+        color: map-get($redes , facebook);
+    }
+
+    .iconos-instagram{
+        @extend .iconos;
+        color: map-get($redes , instagram);
+    }
+
+    .iconos-linkedin{
+        @extend .iconos;
+        color: map-get($redes , linkedin);
+    }
+
+    .iconos-twitter{
+        @extend .iconos;
+        color: map-get($redes , twitter);
+    }
+}
+
+@keyframes zooming {
+    from {
+        transform: scale(100%);
+    }
+
+    to {
+        transform: scale(125%);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    footer {
+        .iconos {
+            font-size: 25px;
+        }
+    }
+}

@@ -5,48 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <meta name="description"
+        content="Para inscribirse a los diferentes cursos o para pedir información más detallada acerca del instituto, puede dejarnos su mail y teléfono para que le podamos contactar y despejar cualquier duda al respecto, o bien puede pasar por el centro de idioma japones en la dirección marca en esta página.">
+    <meta name="keywords" content="Centro cultural japonés, contacto, dirección, correo, información">
+    <title>Centro cultural japonés - Contacto</title>
     <link rel="shortcut icon" href="../assets/logo_redondo.png">
     <script src="https://kit.fontawesome.com/06b6c2a36f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
     <header>
-        <!--Aca hago un header con navbar para que cuando la pantalla sea menor a cierto ancho en vez de aparecer todo,
-solo aparece un icono que despliega las opciones en vertical para la versión mobile.-->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
+            <!--Aca hago un header con navbar para que cuando la pantalla sea menor a cierto ancho en vez de aparecer todo,
+            solo aparece un icono que despliega las opciones en vertical para la versión mobile.-->
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50">
+                    <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
                 </a>
                 <!--Este es el boton que después va a desplegar para la verción mobile-->
-                <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                <button class="justify-content-end navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-flex justify-content-end me-1">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="instituto.html">Instituto</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="japones.html">Japonés</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="cursos.html">Cursos</a>
-                            </li>
-                            <li class="botones_nav nav-item me-4">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" href="instituto.html">Instituto</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" href="japones.html">Japonés</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="botones_nav nav-item me-lg-4 mt-4 mt-lg-0">
+                            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -62,12 +63,12 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                 </div>
                 <div class="d-flex">
                     <div class="row mb-5">
-                        <div class="d-flex mb-2">
+                        <div class="d-flex justify-content-center justify-content-md-start mb-2 pb-3 ps-md-5">
                             <h2>
                                 Ubicación
                             </h2>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex ps-5 pe-5">
                             <p>
                                 El centro cultural japonés se encuentra por bernabe marquez entre blanco encalada y
                                 diego carman, a escasas cuadras de panamericana y marquez, se puede llegar en colectivo
@@ -81,7 +82,6 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                             </p>
                         </div>
                     </div>
-
                 </div>
             </div>
             <!--Formulario y un mapa de ubicación, cuando se achica la pantalla este pasa abajo del formulario.-->
@@ -107,9 +107,10 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                         <input type="submit" name="Enviar" class="boton_enviar">
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 ps-xl-5">
-                    <a href="https://www.google.com/maps" target="_blank">
-                        <img src="../assets/Mapa.PNG" alt="Mapa" width="100%" height="100%">
+                <div class="col-12 col-lg-6 d-flex justify-content-center p-5 ps-xl-5">
+                    <a class="zoom_imagenes" href="https://www.google.com/maps/@-34.4939341,-58.5501934,16.62z"
+                        target="_blank">
+                        <img src="../assets/Mapa.PNG" alt="Mapa" width="100%" height="100%" loading="lazy">
                     </a>
                 </div>
             </div>
@@ -124,9 +125,9 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
     <footer>
         <!--Aca en el footer cuando la pagina se hace muy pequeña para poner el texto de copyright,
         este desaparece y alinea los iconos de las redes centrado en el medio en vez de al final.-->
-        <div class="d-flex flex-row align-items-center" style="background-color: #006060;">
+        <div class="d-flex flex-row align-items-center">
             <a class="navbar-brand" href="../index.html">
-                <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50">
+                <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
             </a>
             <div class="copyright d-none d-md-block">
                 <span class="d-flex flex-wrap">
@@ -137,16 +138,16 @@ solo aparece un icono que despliega las opciones en vertical para la versión mo
                 <a class="iconos  nav-item me-4" href="contacto.html">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://www.facebook.com/" target="_blank">
+                <a class="iconos-facebook nav-item me-4" href="https://www.facebook.com/" target="_blank">
                     <i class="fa-brands fa-square-facebook"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://www.instagram.com/" target="_blank">
+                <a class="iconos-instagram nav-item me-4" href="https://www.instagram.com/" target="_blank">
                     <i class="fa-brands fa-square-instagram"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://www.linkedin.com/" target="_blank">
+                <a class="iconos-linkedin nav-item me-4" href="https://www.linkedin.com/" target="_blank">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a class="iconos nav-item me-4" href="https://twitter.com/" target="_blank">
+                <a class="iconos-twitter nav-item me-4" href="https://twitter.com/" target="_blank">
                     <i class="fa-brands fa-square-twitter"></i>
                 </a>
             </div>
