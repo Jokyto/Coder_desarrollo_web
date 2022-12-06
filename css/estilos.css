@@ -4,25 +4,25 @@
   box-sizing: border-box; }
 
 header {
-  background-color: #006060; }
+  background-color: #c44f69; }
   header nav .botones_nav {
-    border: solid #D6E7DA;
-    background-color: #D6E7DA;
+    border: solid #fcc9b9;
+    background-color: #fcc9b9;
     border-radius: 10%; }
     header nav .botones_nav:hover {
-      background-color: #4e5db4;
-      border: #4e5db4; }
+      background-color: #ef653e;
+      border: #ef653e; }
   header nav div ul li a {
     display: block;
     font-size: 150%;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace, cursive;
-    color: #4E825F !important; }
+    color: #56423c !important; }
     header nav div ul li a:hover {
-      color: #a8eed5 !important; }
+      color: #4f0113 !important; }
 
 footer {
-  background-color: #006060; }
+  background-color: #c44f69; }
   footer .copyright {
     display: inline-flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ footer {
     font-style: italic; }
   footer .iconos, footer .iconos-facebook, footer .iconos-instagram, footer .iconos-linkedin, footer .iconos-twitter {
     font-size: 50px;
-    color: #25D366; }
+    color: #fff5ef; }
     footer .iconos:hover, footer .iconos-facebook:hover, footer .iconos-instagram:hover, footer .iconos-linkedin:hover, footer .iconos-twitter:hover {
       animation: zooming 2s infinite; }
   footer .iconos-facebook {
@@ -57,7 +57,7 @@ footer {
     font-size: 25px; } }
 
 main {
-  background-color: #E5FFF6; }
+  background-color: #fff5ef; }
   main h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 300%;
