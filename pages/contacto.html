@@ -9,7 +9,7 @@
         content="Para inscribirse a los diferentes cursos o para pedir información más detallada acerca del instituto, puede dejarnos su mail y teléfono para que le podamos contactar y despejar cualquier duda al respecto, o bien puede pasar por el centro de idioma japones en la dirección marca en esta página.">
     <meta name="keywords" content="Centro cultural japonés, contacto, dirección, correo, información">
     <title>Centro cultural japonés - Contacto</title>
-    <link rel="shortcut icon" href="../assets/logo_redondo.png">
+    <link rel="shortcut icon" href="../assets/Img/logo_redondo.png">
     <script src="https://kit.fontawesome.com/06b6c2a36f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
@@ -22,7 +22,7 @@
             solo aparece un icono que despliega las opciones en vertical para la versión mobile.-->
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
+                    <img src="../assets/Img/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
                 </a>
                 <!--Este es el boton que después va a desplegar para la verción mobile-->
                 <button class="justify-content-end navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
@@ -54,7 +54,7 @@
     </header>
     <main>
         <div class="container">
-            <!--Titulo-->
+            <!--Titulo y parráfo con subtitulo-->
             <div class="row">
                 <div class="col flex-column d-flex align-items-center justify-content-center p-5">
                     <h1>
@@ -70,14 +70,30 @@
                         </div>
                         <div class="d-flex ps-5 pe-5">
                             <p>
-                                El centro cultural japonés se encuentra por bernabe marquez entre blanco encalada y
-                                diego carman, a escasas cuadras de panamericana y marquez, se puede llegar en colectivo
+                                El centro cultural japonés se encuentra por Av. Bernabé Márquez entre Blanco Encalada y
+                                Uspallata, a escasas cuadras de panamericana y màrquez, se puede llegar en colectivo
                                 desde panamericana o haciendo combinación, ya sea con el tren belgrano norte estación
                                 bulogne sur mer y un colectivo, o también con el tren tigre-retiro estación san isidro y
                                 un colectivo.
-                                Para más información dejenos su contacto para poder asesorarle con cualquier duda o
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Subtitulo y parráfo-->
+            <div class="row">
+                <div class="d-flex">
+                    <div class="row mb-5">
+                        <div class="d-flex justify-content-center justify-content-md-start mb-2 pb-3 ps-md-5">
+                            <h2>
+                                Contacto
+                            </h2>
+                        </div>
+                        <div class="d-flex ps-5 pe-5">
+                            <p>
+                                Para más información déjenos su contacto para poder asesorarle con cualquier duda o
                                 consulta
-                                que tenga, también puede escribirnos por whatsapp dandole click al icono de abajo a la
+                                que tenga, también puede escribirnos por whatsapp dándole click al icono de abajo a la
                                 derecha de la pantalla.
                             </p>
                         </div>
@@ -86,31 +102,37 @@
             </div>
             <!--Formulario y un mapa de ubicación, cuando se achica la pantalla este pasa abajo del formulario.-->
             <div class="d-flex flex-column flex-xl-row align-items-sm-star align-items-md-center">
-                <div class="col-12 col-lg-6 pe-xl-5">
+                <form action="./error.html" method="post" class="col-12 col-lg-6 pe-xl-5">
                     <div class="mb-3">
                         <label for="formGroupFirstName" class="form-label">Ingrese su nombre:</label>
-                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
                     </div>
                     <div class="mb-3">
                         <label for="formGroupLastName" class="form-label">Ingrese su apellido:</label>
-                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
                     </div>
                     <div class="mb-3">
                         <label for="formGroupEmail" class="form-label">Ingrese su email:</label>
-                        <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email" required>
                     </div>
                     <div class="mb-3">
                         <label for="formGroupPhone" class="form-label">Ingrese su teléfono:</label>
-                        <input type="text" class="form-control" placeholder="Teléfono" aria-label="Teléfono">
+                        <input type="text" class="form-control" placeholder="Teléfono" aria-label="Teléfono" required>
                     </div>
                     <div class="mb-3">
-                        <input type="submit" name="Enviar" class="boton_enviar">
+                        <label for="validationTextarea" class="form-label">Déjenos su consulta:</label>
+                        <textarea class="form-control" id="validationTextarea"
+                            placeholder="Escriba su consulta aquí." required></textarea>
                     </div>
-                </div>
+                    <div class="mb-3">
+                        <input class="botones_main btn" type="submit" value="Enviar">
+                    </div>
+                </form>
+                <!--Mapa de ubicación-->
                 <div class="col-12 col-lg-6 d-flex justify-content-center p-5 ps-xl-5">
                     <a class="zoom_imagenes" href="https://www.google.com/maps/@-34.4939341,-58.5501934,16.62z"
                         target="_blank">
-                        <img src="../assets/Mapa.PNG" alt="Mapa" width="100%" height="100%" loading="lazy">
+                        <img src="../assets/Img/Mapa.PNG" alt="Mapa" width="100%" height="100%" loading="lazy">
                     </a>
                 </div>
             </div>
@@ -127,7 +149,7 @@
         este desaparece y alinea los iconos de las redes centrado en el medio en vez de al final.-->
         <div class="d-flex flex-row align-items-center">
             <a class="navbar-brand ps-2" href="../index.html">
-                <img src="../assets/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
+                <img src="../assets/Img/Logo_de_pagina.png" alt="Logo" width="85" height="50" loading="lazy">
             </a>
             <div class="copyright d-none d-md-block">
                 <span class="d-flex flex-wrap">

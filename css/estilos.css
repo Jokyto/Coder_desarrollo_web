@@ -99,6 +99,13 @@ main {
     overflow: hidden;
     cursor: zoom-in;
     align-self: center; }
+  main .botones_main {
+    border: solid #fcc9b9;
+    background-color: #fcc9b9;
+    border-radius: 10%; }
+    main .botones_main:hover {
+      background-color: #ef653e;
+      border: #ef653e; }
 
 @keyframes spin {
   from {

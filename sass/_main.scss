@@ -3,28 +3,29 @@ main {
 
     h1 {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        @include font_size-text_decoration-text_align-font_style(300%,underline,center,oblique);
+        @include font_size-text_decoration-text_align-font_style(300%, underline, center, oblique);
     }
 
     h2 {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        @include font_size-text_decoration-text_align-font_style(200%,underline,start,normal);
+        @include font_size-text_decoration-text_align-font_style(200%, underline, start, normal);
     }
 
     p {
         font-family: Arial, Helvetica, sans-serif;
-        @include font_size-text_decoration-text_align-font_style(100%,none,justify,normal);
+        @include font_size-text_decoration-text_align-font_style(100%, none, justify, normal);
     }
 
     label {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        @include font_size-text_decoration-text_align-font_style(115%,none,start,italic);
+        @include font_size-text_decoration-text_align-font_style(115%, none, start, italic);
     }
 
     .logo_de_whatsapp {
-        @include font_size-text_decoration-text_align-font_style(60px,none,end,normal);
+        @include font_size-text_decoration-text_align-font_style(60px, none, end, normal);
         color: #128C7E;
-        &:hover{
+
+        &:hover {
             animation: spin 5s infinite;
         }
     }
@@ -44,6 +45,16 @@ main {
         }
     }
 
+    .botones_main {
+        border: solid $header_color_botones;
+        background-color: $header_color_botones;
+        border-radius: 10%;
+
+        &:hover {
+            background-color: $header_hover_color_botones;
+            border: $header_hover_color_botones;
+        }
+    }
 }
 
 @keyframes spin {
@@ -62,7 +73,8 @@ main {
         .zoom_imagenes {
             width: 70%;
         }
-        .logo_de_whatsapp{
+
+        .logo_de_whatsapp {
             margin-right: 10%;
         }
     }
