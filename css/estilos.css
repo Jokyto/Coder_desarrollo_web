@@ -107,7 +107,7 @@ main {
       background-color: #ef653e;
       border: #ef653e; }
   main .tarjetas_main {
-    background-color: #fcc9b9;
+    background-color: #fcc9b9 !important;
     border-radius: 5%; }
 
 @keyframes spin {
