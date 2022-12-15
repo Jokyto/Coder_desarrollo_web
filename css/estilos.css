@@ -106,6 +106,9 @@ main {
     main .botones_main:hover {
       background-color: #ef653e;
       border: #ef653e; }
+  main .tarjetas_main {
+    background-color: #fcc9b9;
+    border-radius: 5%; }
 
 @keyframes spin {
   from {
@@ -117,4 +120,16 @@ main {
   main .zoom_imagenes {
     width: 70%; }
   main .logo_de_whatsapp {
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  main .tarjetas_main {
+    width: 50%; } }
+
+@media (min-width: 750px) and (max-width: 991px) {
+  main .tarjetas_main {
+    width: 75%; } }
+
+@media screen and (min-width: 1200px) {
+  main h2 {
+    font-size: 250%; }
+  main p {
+    font-size: 150%; } }

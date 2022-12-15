@@ -55,6 +55,11 @@ main {
             border: $header_hover_color_botones;
         }
     }
+
+    .tarjetas_main {
+        background-color: $header_color_botones;
+        border-radius: 5%;
+    }
 }
 
 @keyframes spin {
@@ -76,6 +81,32 @@ main {
 
         .logo_de_whatsapp {
             margin-right: 10%;
+        }
+
+        .tarjetas_main{
+            width: 50%;
+        }
+
+    }
+}
+
+@media (min-width: 750px) and (max-width: 991px){
+    main {
+        .tarjetas_main {
+            width: 75%;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        h2 {
+            font-size: 250%;
+        }
+
+        p {
+            font-size: 150%;
         }
     }
 }
